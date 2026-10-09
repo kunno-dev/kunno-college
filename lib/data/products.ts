@@ -1,0 +1,155 @@
+import type { Product } from '@/lib/types'
+
+// All commercial data below is DEMO content for the MVP. It does not describe real terms of these developments.
+export const PRODUCTS: Product[] = [
+  {
+    id: 'wuayakin',
+    name: 'Hacienda Wuayakin',
+    short: 'Wuayakin',
+    tagline: 'Vivir con la calma y la arquitectura de una hacienda.',
+    image: '/products/wuayakin.png',
+    location: 'Península de Yucatán · ubicación DEMO',
+    kind: 'Residencial de inspiración hacienda',
+    priceFrom: '$1,450,000 MXN',
+    forWhom: 'Familias y compradores patrimoniales que buscan un estilo de vida tranquilo, con identidad regional.',
+    concept:
+      'Un desarrollo residencial que reinterpreta la arquitectura de hacienda: muros gruesos, patios interiores y áreas verdes como centro de la vida comunitaria.',
+    context:
+      'Zona en crecimiento con acceso a servicios, escuelas y vialidades principales. La cercanía a la ciudad y la baja densidad son parte de su propuesta.',
+    typologies: [
+      { name: 'Lote residencial', detail: '250–400 m² · DEMO' },
+      { name: 'Casa Patio', detail: '2 recámaras · 140 m² · DEMO' },
+      { name: 'Casa Hacienda', detail: '3 recámaras · 210 m² · DEMO' },
+    ],
+    amenities: ['Casa club estilo hacienda', 'Alberca', 'Senderos y jardines', 'Área de juegos', 'Acceso controlado'],
+    paymentScheme: ['Enganche desde 20% · DEMO', 'Mensualidades hasta 36 meses · DEMO', 'Descuento por pago de contado · DEMO'],
+    differentiators: [
+      'Arquitectura con identidad regional',
+      'Baja densidad y amplias áreas verdes',
+      'Comunidad pensada para vivir, no solo invertir',
+    ],
+    buyerProfile: 'Familias de 30 a 55 años, compradores patrimoniales y personas que buscan segunda residencia.',
+    investment:
+      'Su atractivo principal es patrimonial y de estilo de vida. Como cualquier inversión inmobiliaria, la plusvalía no está garantizada y depende del mercado.',
+    arguments: [
+      'Un estilo de vida difícil de replicar en desarrollos convencionales',
+      'Esquemas de pago flexibles para planear con calma',
+      'Comunidad de baja densidad con amenidades completas',
+    ],
+    faqs: [
+      { q: '¿Cuándo se entrega?', a: 'Entrega por etapas. Consulta el calendario vigente con tu gerente · DEMO.' },
+      { q: '¿Se puede construir libremente en el lote?', a: 'Existe un reglamento de imagen para conservar la arquitectura del desarrollo · DEMO.' },
+      { q: '¿Tiene cuota de mantenimiento?', a: 'Sí, cubre seguridad, áreas verdes y amenidades · DEMO.' },
+    ],
+    objections: [
+      { q: '"Está lejos de la ciudad."', a: 'Enfoca en tiempos reales de traslado y en el estilo de vida que gana a cambio: tranquilidad, espacio y comunidad.' },
+      { q: '"Prefiero algo más moderno."', a: 'Muestra cómo el concepto combina identidad regional con interiores contemporáneos y funcionales.' },
+    ],
+    status: 'En comercialización',
+  },
+  {
+    id: 'pitahaya',
+    name: 'Pitahaya Investments',
+    short: 'Pitahaya',
+    tagline: 'Departamentos pensados para inversión y renta.',
+    image: '/products/pitahaya.png',
+    location: 'Zona urbana de alta demanda · ubicación DEMO',
+    kind: 'Departamentos de inversión',
+    priceFrom: '$2,180,000 MXN',
+    forWhom: 'Inversionistas que buscan un producto compacto, con potencial de renta y operación sencilla.',
+    concept: 'Departamentos compactos y bien distribuidos, con amenidades que elevan la experiencia del inquilino.',
+    context: 'Zona con oferta de empleo, servicios y conectividad, lo que favorece la demanda de renta · DEMO.',
+    typologies: [
+      { name: 'Studio', detail: '45 m² · DEMO' },
+      { name: '1 recámara', detail: '62 m² · DEMO' },
+      { name: '2 recámaras', detail: '88 m² · DEMO' },
+    ],
+    amenities: ['Rooftop con alberca', 'Coworking', 'Gimnasio', 'Lobby con acceso inteligente', 'Lavandería'],
+    paymentScheme: ['Preventa con enganche 30% · DEMO', 'Diferido hasta entrega · DEMO', 'Opción de crédito bancario · DEMO'],
+    differentiators: ['Diseño orientado a renta', 'Amenidades para inquilinos', 'Ubicación con demanda constante · DEMO'],
+    buyerProfile: 'Inversionistas de 28 a 60 años, primer o segundo inmueble de inversión.',
+    investment:
+      'Se presenta como producto de inversión. Cualquier escenario de rendimiento es ilustrativo y no constituye una promesa ni asesoría financiera.',
+    arguments: [
+      'Producto compacto, fácil de rentar y mantener',
+      'Preventa como punto de entrada atractivo',
+      'Amenidades que mejoran la ocupación',
+    ],
+    faqs: [
+      { q: '¿Se puede rentar por plataformas?', a: 'Consulta el reglamento vigente del desarrollo · DEMO.' },
+      { q: '¿Existe administración de rentas?', a: 'Se puede contratar un administrador externo · DEMO.' },
+      { q: '¿Cuándo se entrega?', a: 'Entrega estimada por torre. Consulta el calendario vigente · DEMO.' },
+    ],
+    objections: [
+      { q: '"¿Y si no se renta?"', a: 'Habla de factores de demanda de la zona y de escenarios conservadores, sin prometer ocupación.' },
+      { q: '"Las tasas están altas."', a: 'Compara esquemas de pago directo con financiamiento y revisa el horizonte de inversión del cliente.' },
+    ],
+    status: 'En comercialización',
+  },
+  {
+    id: 'telchac',
+    name: 'Las Villas Telchac',
+    short: 'Telchac',
+    tagline: 'Villas frente al mar para descansar y compartir.',
+    image: '/products/telchac.png',
+    location: 'Costa de Yucatán · ubicación DEMO',
+    kind: 'Villas de playa',
+    priceFrom: '$3,600,000 MXN',
+    forWhom: 'Compradores de segunda residencia y familias que buscan un lugar de descanso en la costa.',
+    concept: 'Villas de arquitectura contemporánea con alberca privada, a pasos de la playa.',
+    context: 'Costa con creciente interés turístico y residencial · DEMO.',
+    typologies: [
+      { name: 'Villa Duna', detail: '2 recámaras · alberca privada · DEMO' },
+      { name: 'Villa Brisa', detail: '3 recámaras · terraza · DEMO' },
+    ],
+    amenities: ['Acceso a playa', 'Club de playa', 'Alberca privada por villa', 'Seguridad 24/7'],
+    paymentScheme: ['Enganche desde 25% · DEMO', 'Mensualidades hasta 24 meses · DEMO'],
+    differentiators: ['Alberca privada en cada villa', 'Arquitectura frente al mar', 'Comunidad pequeña y exclusiva'],
+    buyerProfile: 'Compradores de 35 a 65 años con interés en segunda residencia o renta vacacional.',
+    investment: 'Producto de estilo de vida con posible uso vacacional. Los rendimientos dependen de ocupación y operación.',
+    arguments: ['Privacidad y mar en un mismo lugar', 'Uso familiar con opción de renta vacacional', 'Producto limitado'],
+    faqs: [
+      { q: '¿Se puede rentar vacacionalmente?', a: 'Sí, conforme al reglamento del desarrollo · DEMO.' },
+      { q: '¿Qué incluye el mantenimiento?', a: 'Seguridad, áreas comunes y club de playa · DEMO.' },
+    ],
+    objections: [
+      { q: '"El mantenimiento en la costa es caro."', a: 'Explica qué incluye la cuota y cómo los materiales elegidos reducen el desgaste.' },
+      { q: '"Solo lo usaría unas semanas al año."', a: 'Explora el uso mixto: disfrute familiar y renta vacacional el resto del año.' },
+    ],
+    status: 'En comercialización',
+  },
+  {
+    id: 'nubes',
+    name: 'Las Nubes',
+    short: 'Las Nubes',
+    tagline: 'Naturaleza, bosque y niebla como forma de vida.',
+    image: '/products/nubes.png',
+    location: 'Zona de montaña · ubicación DEMO',
+    kind: 'Lotes y cabañas en bosque',
+    priceFrom: '$980,000 MXN',
+    forWhom: 'Personas que buscan contacto con la naturaleza, segunda residencia o un proyecto de descanso.',
+    concept: 'Lotes de bosque con lineamientos de construcción sustentable y cabañas modelo.',
+    context: 'Destino de naturaleza con creciente interés de turismo de descanso · DEMO.',
+    typologies: [
+      { name: 'Lote bosque', detail: '500–900 m² · DEMO' },
+      { name: 'Cabaña modelo', detail: '2 recámaras · 95 m² · DEMO' },
+    ],
+    amenities: ['Senderos', 'Mirador', 'Casa club', 'Huerto comunitario'],
+    paymentScheme: ['Apartado de lanzamiento · DEMO', 'Mensualidades hasta 48 meses · DEMO'],
+    differentiators: ['Entorno natural protegido', 'Lineamientos sustentables', 'Precio de lanzamiento · DEMO'],
+    buyerProfile: 'Compradores de 30 a 60 años con estilo de vida outdoor y búsqueda de bienestar.',
+    investment: 'Producto en lanzamiento. Las condiciones de preventa son DEMO y deben confirmarse antes de comunicarlas.',
+    arguments: ['Naturaleza a minutos de la ciudad · DEMO', 'Precio de lanzamiento', 'Comunidad con propósito'],
+    faqs: [
+      { q: '¿Cuándo inicia la comercialización?', a: 'Próximo lanzamiento. Fecha DEMO por confirmar.' },
+      { q: '¿Hay servicios en los lotes?', a: 'Se contemplan por etapas · DEMO.' },
+    ],
+    objections: [
+      { q: '"Es un proyecto nuevo, no hay nada construido."', a: 'Muestra el plan maestro, avances y la trayectoria del desarrollador.' },
+      { q: '"No sé si lo usaría seguido."', a: 'Explora el propósito: descanso, proyecto a largo plazo o patrimonio.' },
+    ],
+    status: 'Próximo lanzamiento',
+  },
+]
+
+export const getProduct = (id: string) => PRODUCTS.find((p) => p.id === id)
